@@ -10,6 +10,9 @@
 <TR>
 <TD ALIGN=LEFT VALIGN=TOP>
 <!-- COL 3, every page should be different -->
+<TABLE BORDER=0>
+
+<TR><TD>&nbsp;</TD></TR>
 
 <TR><TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#000000" WIDTH=100%>
 <FONT COLOR="#ffffff"><A
@@ -50,6 +53,7 @@ NAME="syntax"><B>Commandline Syntax & Program
 Output</B></A></FONT>
 </TD>
 </TR>
+
 <TR><TD COLSPAN=3 ALIGN=LEFT>
 The commandline syntax for <B>hw4</B> is as follows:
 
@@ -78,17 +82,17 @@ The meaning of the commands are:
 
 <BLOCKQUOTE>
 <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
-<TR><TD ALIGN=LEFT VALIGN=TOP><B>keygen</B></TD>
-<TD VALIGN=TOP>&nbsp;&nbsp;:&nbsp;&nbsp;</TD>
-<TD VALIGN=TOP>Generate a <A HREF="#keyfile">keyfile</A> with a specified <TT>period</TT>
-       to be used by the
-       <A HREF="#vigenere">full Vigen&#232;re cipher</A>
-       (with polyalphabetic substitution).
-       The ASCII string <TT>pphrase</TT>
-       contains the passphrase (which must not be empty) for
-       <A HREF="#shuffle">key generation</A>
-</TD>
-</TR>
+    <TR><TD ALIGN=LEFT VALIGN=TOP><B>keygen</B></TD>
+        <TD VALIGN=TOP>&nbsp;&nbsp;:&nbsp;&nbsp;</TD>
+        <TD VALIGN=TOP>Generate a <A HREF="#keyfile">keyfile</A> with a specified <TT>period</TT>
+                       to be used by the
+                       <A HREF="#vigenere">full Vigen&#232;re cipher</A>
+                       (with polyalphabetic substitution).
+                       The ASCII string <TT>pphrase</TT>
+                       contains the passphrase (which must not be empty) for
+                       <A HREF="#shuffle">key generation</A>
+        </TD>
+    </TR>
     <TR><TD>&nbsp;</TD></TR>
     <TR><TD ALIGN=LEFT VALIGN=TOP><B>crypt</B></TD>
         <TD VALIGN=TOP>&nbsp;&nbsp;:&nbsp;&nbsp;</TD>
@@ -281,7 +285,7 @@ The output for various commands are as follows.
                 <B>Full Vigen&#232;re Cipher</B></A></FONT>
             </TD>
         </TR>
-     
+        
         <TR><TD COLSPAN=3 ALIGN=LEFT>
 In a full Vigen&#232;re cipher with period <I>T</I>,
 <I>T</I> permutation functions are used.  Each permutation
@@ -350,7 +354,6 @@ If you encounter a character less than <TT>0x20</TT> or greater than <TT>0x7e</T
             </TD>
         </TR>
         <TR><TD>&nbsp;</TD></TR>
-        
         <TR><TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#000000" WIDTH=100%>
                 <FONT COLOR="#ffffff"><A
                 NAME="shuffle"><B>Random Permutation</B></A>
