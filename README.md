@@ -8,53 +8,51 @@
 
 <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=100%>
 <TR>
-<TD ALIGN=LEFT VALIGN=TOP>
-<!-- COL 3, every page should be different -->
-<TABLE BORDER=0>
-
-<TR><TD>&nbsp;</TD></TR>
-
-<TR><TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#000000" WIDTH=100%>
-<FONT COLOR="#ffffff"><A
-NAME="intro"><B>Assignment</B></A></FONT>
-</TD>
-</TR>
-
-<TR><TD COLSPAN=3 ALIGN=LEFT>
-The purpose of this assignment is to get familiar with
+    
+    <TD ALIGN=LEFT VALIGN=TOP>
+    <!-- COL 3, every page should be different -->
+        <TABLE BORDER=0>
+        <!-- Page Header -->
+        
+        <TR><TD>&nbsp;</TD></TR>
+        <!-- Section -->
+        <TR><TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#000000" WIDTH=100%>
+                <FONT COLOR="#ffffff"><A
+                NAME="intro"><B>Assignment</B></A></FONT>
+            </TD>
+        </TR>
+        <TR><TD COLSPAN=3 ALIGN=LEFT>
+The purpose of this assignment is to get you familiar with
 a classical polyalphabetic substitution cipher and the
 cryptanalysis of it.
 
-<P>
 
-</TD>
-</TR>
-<TR><TD>&nbsp;</TD></TR>
-
-<TR><TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#000000" WIDTH=100%>
-<FONT COLOR="#ffffff"><A
-NAME="compile"><B>Compiling</B></A></FONT>
-</TD>
-</TR>
-
-<TR><TD COLSPAN=3 ALIGN=LEFT>
-
-<PRE>
-make hw4</PRE>
+            </TD>
+        </TR>
+        <TR><TD>&nbsp;</TD></TR>
+        <!-- Section -->
+        <TR><TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#000000" WIDTH=100%>
+                <FONT COLOR="#ffffff"><A
+                NAME="compile"><B>Compiling</B></A></FONT>
+            </TD>
+        </TR>
+        <TR><TD COLSPAN=3 ALIGN=LEFT>
+    <PRE>
+    make hw4</PRE>
 an executable named <B>hw4</B> is created.
+(Minor variation on the <TT>make</TT> command is allowed.)
 
-</TD>
-</TR>
-<TR><TD>&nbsp;</TD></TR>
-
-<TR><TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#000000" WIDTH=100%>
-<FONT COLOR="#ffffff"><A
-NAME="syntax"><B>Commandline Syntax & Program
-Output</B></A></FONT>
-</TD>
-</TR>
-
-<TR><TD COLSPAN=3 ALIGN=LEFT>
+            </TD>
+        </TR>
+        <TR><TD>&nbsp;</TD></TR>
+        <!-- Section -->
+        <TR><TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#000000" WIDTH=100%>
+                <FONT COLOR="#ffffff"><A
+                NAME="syntax"><B>Commandline Syntax & Program
+                Output</B></A></FONT>
+            </TD>
+        </TR>
+        <TR><TD COLSPAN=3 ALIGN=LEFT>
 The commandline syntax for <B>hw4</B> is as follows:
 
 <PRE>
@@ -67,14 +65,10 @@ The commandline syntax for <B>hw4</B> is as follows:
 <P>
 
 Square bracketed items are optional.
-Follows the UNIX convention that <B>commandline options</B>
+You must follow the UNIX convention that <B>commandline options</B>
 can come in any order.  (Note: a <B>commandline option</B> is a
 commandline argument that begins with a <B>-</B> character in a
 commandline syntax specification.)
-If an input file is not specified, the program should
-read from <TT>stdin</TT>.
-Output of the program must go to <TT>stdout</TT> and
-error messages must go to <TT>stderr</TT>.
 
 <P>
 
@@ -276,17 +270,17 @@ The output for various commands are as follows.
     </TR>
 </TABLE>
 </BLOCKQUOTE>
-
-            </TD>
-        </TR>
-        <TR><TD>&nbsp;</TD></TR>
-        <TR><TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#000000" WIDTH=100%>
-                <FONT COLOR="#ffffff"><A NAME="vigenere">
-                <B>Full Vigen&#232;re Cipher</B></A></FONT>
-            </TD>
-        </TR>
-        
-        <TR><TD COLSPAN=3 ALIGN=LEFT>
+</TD>
+</TR>
+<TR><TD>&nbsp;</TD></TR>
+<!-- Section -->
+<TR><TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#000000" WIDTH=100%>
+<FONT COLOR="#ffffff"><A NAME="vigenere">
+<B>Full Vigen&#232;re Cipher</B></A></FONT>
+</TD>
+</TR>
+<!-- Top Section -->
+<TR><TD COLSPAN=3 ALIGN=LEFT>
 In a full Vigen&#232;re cipher with period <I>T</I>,
 <I>T</I> permutation functions are used.  Each permutation
 function maps a single plaintext character to a ciphertext
@@ -354,13 +348,14 @@ If you encounter a character less than <TT>0x20</TT> or greater than <TT>0x7e</T
             </TD>
         </TR>
         <TR><TD>&nbsp;</TD></TR>
+        <!-- Section -->
         <TR><TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#000000" WIDTH=100%>
                 <FONT COLOR="#ffffff"><A
                 NAME="shuffle"><B>Random Permutation</B></A>
                     </FONT>
             </TD>
         </TR>
-        
+        <!-- Top Section -->
         <TR><TD COLSPAN=3 ALIGN=LEFT>
 Given a list of N = 26 elements, please use the algorithm described
 here to create a random permutation of the lower-case alphabet.
@@ -419,8 +414,8 @@ when you run with <TT>-p=yesnomaybe -t=2</TT>
 against <A HREF="keygen-debug.txt">this set of values and keys</A>.
             </TD>
         </TR>
+        <TR><TD>&nbsp;</TD></TR>
         
-
 </BODY>
 </HTML>
 
