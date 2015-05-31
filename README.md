@@ -15,7 +15,7 @@
         <!-- Page Header -->
         
         <TR><TD>&nbsp;</TD></TR>
-        <!-- Section -->
+        
         <TR><TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#000000" WIDTH=100%>
                 <FONT COLOR="#ffffff"><A
                 NAME="intro"><B>Assignment</B></A></FONT>
@@ -30,7 +30,7 @@ cryptanalysis of it.
             </TD>
         </TR>
         <TR><TD>&nbsp;</TD></TR>
-        <!-- Section -->
+       
         <TR><TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#000000" WIDTH=100%>
                 <FONT COLOR="#ffffff"><A
                 NAME="compile"><B>Compiling</B></A></FONT>
@@ -45,7 +45,7 @@ an executable named <B>hw4</B> is created.
             </TD>
         </TR>
         <TR><TD>&nbsp;</TD></TR>
-        <!-- Section -->
+    
         <TR><TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#000000" WIDTH=100%>
                 <FONT COLOR="#ffffff"><A
                 NAME="syntax"><B>Commandline Syntax & Program
@@ -273,13 +273,12 @@ The output for various commands are as follows.
 </TD>
 </TR>
 <TR><TD>&nbsp;</TD></TR>
-<!-- Section -->
+
 <TR><TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#000000" WIDTH=100%>
 <FONT COLOR="#ffffff"><A NAME="vigenere">
 <B>Full Vigen&#232;re Cipher</B></A></FONT>
 </TD>
 </TR>
-<!-- Top Section -->
 <TR><TD COLSPAN=3 ALIGN=LEFT>
 In a full Vigen&#232;re cipher with period <I>T</I>,
 <I>T</I> permutation functions are used.  Each permutation
@@ -348,14 +347,12 @@ If you encounter a character less than <TT>0x20</TT> or greater than <TT>0x7e</T
             </TD>
         </TR>
         <TR><TD>&nbsp;</TD></TR>
-        <!-- Section -->
         <TR><TD COLSPAN=3 ALIGN=LEFT BGCOLOR="#000000" WIDTH=100%>
                 <FONT COLOR="#ffffff"><A
                 NAME="shuffle"><B>Random Permutation</B></A>
                     </FONT>
             </TD>
         </TR>
-        <!-- Top Section -->
         <TR><TD COLSPAN=3 ALIGN=LEFT>
 Given a list of N = 26 elements, please use the algorithm described
 here to create a random permutation of the lower-case alphabet.
